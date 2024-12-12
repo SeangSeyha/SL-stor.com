@@ -11,7 +11,7 @@
 }
 
 body {
-    background: #9ddbff;
+    background: #5500b6;
 }
 
 .header {
@@ -29,7 +29,7 @@ body {
 
 .logo {
     font-size: 25px;
-    color: #222;
+    color: #ffffff;
     text-decoration: none;
     font-weight: 600;
     opacity: 0;
@@ -39,7 +39,7 @@ body {
 .navbar a {
     display: inline-block;
     font-size: 18px;
-    color: #222;
+    color: #ffffff;
     text-decoration: none;
     font-weight: 500;
     margin: 0 20px;
@@ -103,16 +103,17 @@ body {
 }
 
 .home-content h1 {
-    font-size: 50px;
+    font-size: 40px;
     line-height: 1.2;
     opacity: 0;
     animation: slideBottom 1s ease forwards;
     animation-delay: 1s;
+    color: #eaeaea;
 }
 
 .home-content h3 {
-    font-size: 40px;
-    color: #1743e3;
+    font-size: 20px;
+    color: #00ff22;
     opacity: 0;
     animation: slideRight 1s ease forwards;
     animation-delay: 1.3s;
@@ -124,6 +125,7 @@ body {
     opacity: 0;
     animation: slideLeft 1s ease forwards;
     animation-delay: 1.6s;
+    color: #eaeaea;
 }
 
 .btn {
